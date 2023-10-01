@@ -1,23 +1,27 @@
 // Write your solution in this file!
-var customerName="Khalid";
-let bestCustomer ="not bob";
+customerName= 'bob';
+
 const leastFavoriteCustomer= " John";
-function upperCaseCustomerName(){
-    return customerName.toUpperCase();
-}
+
+ function upperCaseCustomerName(){
+ customerName = customerName.toUpperCase();
+ 
+} 
+
 function setBestCustomer(){
-   
-    return bestCustomer;
+    
+     
+     bestCustomer = 'not bob';
+      
+ 
 }
-function overwriteBestCustomer(){
-bestCustomer= "is bob";
-return bestCustomer
+function  overwriteBestCustomer()
+{
+    bestCustomer = 'maybe bob'
 }
 function changeLeastFavoriteCustomer(){
-    leastFavoriteCustomer = "not John";
-    return leastFavoriteCustomer;
+leastFavoriteCustomer="test";
 }
-console.log(upperCaseCustomerName())
-console.log(setBestCustomer())
-console.log(overwriteBestCustomer())
-console.log(changeLeastFavoriteCustomer()) //error because we change constant variable.
+
+
+
